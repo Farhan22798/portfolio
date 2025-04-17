@@ -28,7 +28,7 @@ const Footer = () => {
   <FaWhatsapp size={24} />
 </a>
       <a
-  href="https://drive.google.com/file/d/1Zrlb1rYDdeVQ3K_1wiSzfc13uxA1e3yO/view?usp=drive_link"
+  href="https://drive.google.com/file/d/1YLCNKTGymKXh3aw80XTSwrL4vH79HdRz/view?usp=sharing"
   target="_blank"
   rel="noopener noreferrer"
 >
