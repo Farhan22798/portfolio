@@ -37,6 +37,7 @@ import {
 
 // Import  separately
 import skillhub from "../assets/company/skillhub.png";
+import cometchat from "../assets/company/cometchat.png"
 import cuvette from "../assets/company/cuvette.svg"
 import bootstrapLogo from "../assets/tech/bootstrapLogo.png"
 import cloudinary from "../assets/tech/cloudinary.webp"
@@ -45,6 +46,7 @@ import expo from "../assets/tech/expo.png"
 import postman from "../assets/tech/postman.png"
 import vscode from "../assets/tech/vscode.png"
 import github from "../assets/tech/github.jpg"
+import reactnative from "../assets/tech/react-native.svg"
 
 
 
@@ -104,6 +106,10 @@ const technologies = [
   },
   {
     name: "React JS",
+    icon: reactjs,
+  },
+  {
+    name: "React Native",
     icon: reactjs,
   },
 
@@ -197,7 +203,7 @@ const experiences = [
     company_name: "Skillhub IT Solutions",
     icon: skillhub,
     iconBg: "#FFFFFF",
-    date: "June 2024 - present",
+    date: "June 2024 – May 2025",
     points: [
       "Developing and maintaining full-stack web and mobile applications using React.js, React Native, Node.js, Express, and MongoDB.",
       "Collaborating on real-world projects like e-commerce and food delivery platforms with cross-functional teams to ensure functional and intuitive solutions.",
@@ -206,6 +212,25 @@ const experiences = [
 
     ],
   },
+  {
+    title: "Trainee Engineer – Technical Support",
+    company_name: "CometChat",
+    icon: cometchat,
+    iconBg: "#FFFFFF",
+    date: "May 2025 – Present",
+    points: [
+      "Providing technical solutions for developers integrating CometChat into React Native applications, resolving complex implementation challenges via code analysis and debugging.",
+      "Designing custom workarounds to deliver requested features using existing CometChat components, ensuring flexibility beyond out-of-the-box product capabilities.",
+      "Collaborating with engineering teams to identify, reproduce, and resolve product bugs, contributing directly to code fixes and product stability.",
+      "Implemented full localization system from scratch using React Context API and Day.js, building a `<CometChatI18nProvider/>`, adding translation JSONs, system language detection, and locale-based date/time formatting.",
+      "Managing and testing REST APIs through Postman and CometChat API Explorer, with hands-on experience in GET, POST, PUT requests, backend–frontend integration, and server-side feature validation.",
+      "Built a WhatsApp-style clone application using CometChat SDK, implementing real-time messaging, group and one-to-one calls, threads, reactions, read receipts, group management, and push notifications, demonstrating end-to-end SDK integration.",
+      "Supporting real-world developer use cases through tickets, emails, and calls, while continuously improving product adoption and developer experience."
+    ],
+  },
+  
+  
+
 ];
 
 const testimonials = [
@@ -319,7 +344,22 @@ const projects = [
     source_code_link: "https://github.com/Farhan22798/doc-connect", // replace with actual link
     live_link: "https://doc-connect-7tm9.onrender.com/",
 
-  }
+  },
+  {
+    name: "WhatsApp Clone",
+    description:
+      "A WhatsApp-style chat application built with React Native and CometChat SDK, featuring one-on-one and group chat, media messages, reactions, threads, real-time read receipts, group management, and audio/video calling. Implemented push notifications with Firebase Cloud Messaging and customized UI components to closely resemble WhatsApp.",
+    tags: [
+      { name: "react native", color: "blue-text-gradient" },
+      { name: "cometchat sdk", color: "purple-text-gradient" },
+      { name: "firebase fcm", color: "pink-text-gradient" },
+      { name: "context api", color: "yellow-text-gradient" },
+      { name: "day.js", color: "green-text-gradient" },
+    ],
+    image: project3,
+    source_code_link: "https://github.com/Farhan22798/whatsapp-clone",
+    live_link: "", 
+  },
 
 
 ];
