@@ -67,7 +67,7 @@ export const navLinks = [
     title: "Contact",
   },
   {
-    id: "https://drive.google.com/file/d/1YLCNKTGymKXh3aw80XTSwrL4vH79HdRz/view?usp=sharing ",
+    id: "https://drive.google.com/file/d/1wRxQJOhu_-p5trvVFKgfugOleyMO_1vl/view?usp=drive_link",
     title: "Resume",
   },
 ];
